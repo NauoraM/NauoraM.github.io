@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <title> Betyg </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Betyg.css">
+    
+    <script>
+        function MyFunction() {
+            
+        var a = document.getElementById("betyg1").value;
+        var b = document.getElementById("betyg2").value;
+        var c = document.getElementById("betyg3").value;
+        var d = document.getElementById("betyg4").value;
+        var e = document.getElementById("betyg5").value;
+        var f = document.getElementById("betyg6").value;
+        var g = document.getElementById("betyg7").value;
+        var h = document.getElementById("betyg8").value;
+        var i = document.getElementById("betyg9").value;
+        var j = document.getElementById("betyg10").value;
+        var k = document.getElementById("betyg11").value;
+        var l = document.getElementById("betyg12").value;
+
+        var a = Math.floor(a)
+        var b = Math.floor(b)
+        var c = Math.floor(c)
+        var d = Math.floor(d)
+        var e = Math.floor(e)
+        var f = Math.floor(f)
+        var g = Math.floor(g)
+        var h = Math.floor(h)
+        var k = Math.floor(i)
+        var i = Math.floor(j)
+        var j = Math.floor(k)
+        var l = Math.floor(l)
+
+        var x = a + b + c + d + e + f + g + h + i + j + k + l;
+        var x = x/2500;
+        document.getElementById("summa").innerHTML = "Din merit är: " + x;
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <div id="header"><h1> Räkna ut Merit och Gymnasieexamen mål </h1></div>
+    <div id="logo"><h2> Lägg till kurser och poäng </h2></div>
+
+
+    <div id="kurser"><p> Kurser </p></div>
+    <div id="poäng"><p> Poäng </p></div>
+    <div id="betyg"><p> Betyg </p></div>
+
+
+    <div class="ämnen"><p id="kpb"> Engelska 5 </p></div>
+    <div id="png"><p id="kpb"> 100 </p></div>
+
+    <div class="ämnen"><p id="kpb"> Engelska 6 </p></div>
+    <div id="png"><p id="kpb"> 100 </p></div>
+
+    <div class="ämnen"><p id="kpb"> Historia </p></div>
+    <div id="png"><p id="kpb"> 100 </p></div>
+
+    <div class="ämnen"><p id="kpb"> Matematik 1C </p></div>
+    <div id="png"><p id="kpb"> 100 </p></div>
+
+    <div class="ämnen"><p id="kpb"> Matematik 2C </p></div>
+    <div id="png"><p id="kpb"> 100 </p></div>
+
+    <div class="ämnen"><p id="kpb"> Matematik 3C </p></div>
+    <div id="png"><p id="kpb"> 100 </p></div>
+
+    <div class="ämnen"><p id="kpb"> Svenska 1 </p></div>
+    <div id="png"><p id="kpb"> 100 </p></div>
+
+    <div class="ämnen"><p id="kpb"> Svenska 2 </p></div>
+    <div id="png"><p id="kpb"> 100 </p></div>
+
+    <div class="ämnen"><p id="kpb"> Webbutveckling 1 </p></div>
+    <div id="png"><p id="kpb"> 100 </p></div>
+
+    <div class="ämnen"><p id="kpb"> Teknik </p></div>
+    <div id="png"><p id="kpb"> 100 </p></div>
+
+    <div class="ämnen"><p id="kpb"> Fysik 1 </p></div>
+    <div id="png"><p id="kpb"> 100 </p></div>
+
+    <div class="ämnen"><p id="kpb"> Programmering 1 </p></div>
+    <div id="png"><p id="kpb"> 100 </p></div>
+
+
+    <form>
+        <select id="betyg1">
+          <option value="0"> Ej läst </option>
+          <option value="0"> F </option>
+          <option value="1000"> E </option>
+          <option value="1250"> D </option>
+          <option value="1500"> C </option>
+          <option value="1750"> B </option>
+          <option value="2000"> A </option>
+        </select>
+          
+        <select id="betyg2">
+          <option value="0"> Ej läst </option>
+          <option value="0"> F </option>
+          <option value="1000"> E </option>
+          <option value="1250"> D </option>
+          <option value="1500"> C </option>
+          <option value="1750"> B </option>
+          <option value="2000"> A </option>
+        </select>
+          
+        <select id="betyg3">
+          <option value="0"> Ej läst </option>
+          <option value="0"> F </option>
+          <option value="1000"> E </option>
+          <option value="1250"> D </option>
+          <option value="1500"> C </option>
+          <option value="1750"> B </option>
+          <option value="2000"> A </option>
+        </select>
+          
+        <select id="betyg4">
+          <option value="0"> Ej läst </option>
+          <option value="0"> F </option>
+          <option value="1000"> E </option>
+          <option value="1250"> D </option>
+          <option value="150000"> C </option>
+          <option value="1750"> B </option>
+          <option value="2000"> A </option>
+        </select>
+          
+        <select id="betyg5">
+          <option value="0"> Ej läst </option>
+          <option value="0"> F </option>
+          <option value="1000"> E </option>
+          <option value="1250"> D </option>
+          <option value="1500"> C </option>
+          <option value="1750"> B </option>
+          <option value="2000"> A </option>
+        </select>
+
+        <select id="betyg6">
+          <option value="0"> Ej läst </option>
+          <option value="0"> F </option>
+          <option value="1000"> E </option>
+          <option value="1250"> D </option>
+          <option value="1500"> C </option>
+          <option value="1750"> B </option>
+          <option value="2000"> A </option>
+        </select>
+          
+        <select id="betyg7">
+          <option value="0"> Ej läst </option>
+          <option value="0"> F </option>
+          <option value="1000"> E </option>
+          <option value="1250"> D </option>
+          <option value="1500"> C </option>
+          <option value="1750"> B </option>
+          <option value="2000"> A </option>
+        </select>
+          
+        <select id="betyg8">
+          <option value="0"> Ej läst </option>
+          <option value="0"> F </option>
+          <option value="1000"> E </option>
+          <option value="1250"> D </option>
+          <option value="1500"> C </option>
+          <option value="1750"> B </option>
+          <option value="2000"> A </option>
+        </select>
+          
+        <select id="betyg9">
+          <option value="0"> Ej läst </option>
+          <option value="0"> F </option>
+          <option value="1000"> E </option>
+          <option value="1250"> D </option>
+          <option value="1500"> C </option>
+          <option value="1750"> B </option>
+          <option value="2000"> A </option>
+        </select>
+          
+        <select id="betyg10">
+          <option value="0"> Ej läst </option>
+          <option value="0"> F </option>
+          <option value="1000"> E </option>
+          <option value="1250"> D </option>
+          <option value="1500"> C </option>
+          <option value="1750"> B </option>
+          <option value="2000"> A </option>
+        </select>
+          
+        <select id="betyg11">
+          <option value="0"> Ej läst </option>
+          <option value="0"> F </option>
+          <option value="1000"> E </option>
+          <option value="1250"> D </option>
+          <option value="1500"> C </option>
+          <option value="1750"> B </option>
+          <option value="2000"> A </option>
+        </select>
+          
+        <select id="betyg12">
+          <option value="0"> Ej läst </option>
+          <option value="0"> F </option>
+          <option value="1000"> E </option>
+          <option value="1250"> D </option>
+          <option value="1500"> C </option>
+          <option value="1750"> B </option>
+          <option value="2000"> A </option>
+        </select>
+    </form>
+    
+    <br>
+    <br>
+    <br>
+        
+    <button type="button" class="button" onclick="MyFunction()"> Räkna ut </button>
+    
+    <br>
+          
+    <p id="summa"><p id="box"> Du har läst klart 1200 poäng. För att få ett gymnasieexamen behöver du ha läst 2500 poäng och ha godkänt 2250 poäng. Dessutom så måste du ha godkänt i Svenska 1 2 3, Engelska 5 6, Matematik 1 och ha ett godkänt betyg i gymnasiearbetet. </p></p>
+</body>
+</html>
